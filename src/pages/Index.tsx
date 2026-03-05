@@ -36,7 +36,8 @@ const Index = () => {
             >
               Acessar o Material Agora
             </a>
-            <p className="mt-3 text-sm text-muted-foreground">Acesso imediato após a compra.</p>
+            <p className="mt-3 text-sm text-muted-foreground">Acesso imediato após a compra</p>
+            <p className="text-sm text-muted-foreground">Material digital em formato PDF</p>
           </div>
         </div>
       </section>
@@ -105,8 +106,8 @@ const Index = () => {
             Este material foi desenvolvido como apoio à liderança cristã e pode auxiliar na preparação de reflexões, estudos bíblicos e ministrações.
           </p>
           <div className="mt-8">
-            <p className="text-muted-foreground line-through text-lg">De R$97</p>
-            <p className="text-sm text-muted-foreground mt-1">Por apenas:</p>
+            <p className="text-muted-foreground line-through text-lg">Valor normal do material: R$97</p>
+            <p className="text-sm text-muted-foreground mt-1">Disponível hoje por apenas:</p>
             <p className="text-5xl md:text-6xl font-extrabold text-primary mt-1">R$27</p>
           </div>
           <a
@@ -115,6 +116,7 @@ const Index = () => {
           >
             Quero acessar o material
           </a>
+          <p className="mt-3 text-sm text-muted-foreground">Download imediato após a compra.</p>
         </div>
       </section>
 
