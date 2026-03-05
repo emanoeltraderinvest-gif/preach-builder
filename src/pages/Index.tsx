@@ -2,7 +2,7 @@ import ebookCover from "@/assets/ebook-cover.png";
 import { BookOpen, Lightbulb, ListChecks, Layout } from "lucide-react";
 
 const Index = () => {
-  const ctaUrl = "#";
+  const ctaUrl = "https://pay.wiapy.com/fvh_RQBAjh";
 
   return (
     <div className="min-h-screen bg-background">
