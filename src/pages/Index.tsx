@@ -262,10 +262,10 @@ const Index = () => {
           </p>
 
           {/* Urgência */}
-          <div className="mt-6 inline-flex items-center gap-2 bg-background border border-border rounded-lg px-5 py-3 text-sm font-semibold text-muted-foreground">
+          <div className="mt-6 inline-flex items-center gap-2 bg-accent rounded-lg px-5 py-3 text-sm font-semibold text-accent-foreground">
             <Clock className="w-4 h-4 text-primary" />
             Oferta especial encerra em:{" "}
-            <span className="text-primary font-extrabold tracking-widest">{countdown}</span>
+            <span className="text-primary font-extrabold text-xl tracking-widest bg-background rounded px-2 py-0.5">{countdown}</span>
           </div>
 
           <div className="mt-6">
